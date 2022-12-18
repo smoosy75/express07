@@ -1,3 +1,4 @@
+const { hashPassword } = require("./auth");
 const database = require("./database");
 
 const getUsers = (req, res) => {
